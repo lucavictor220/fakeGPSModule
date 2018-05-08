@@ -1,0 +1,2088 @@
+{
+  "bus_4": [
+    {
+      "ri": 41,
+      "rn": "2",
+      "rd": "Vasile Alecsandri St - Cricova",
+      "rwt": "05:15 - 23:18",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "13-30",
+      "rp": 4.5,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 46,
+      "rn": "4",
+      "rd": "Kuza-Vode St - Bаchoi",
+      "rwt": "05:20 - 22:26",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "20-60",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 25,
+      "rn": "5",
+      "rd": "Cuza Voda St - Bucovinei St",
+      "rwt": "06:00 - 22:38",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "17-34",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 45,
+      "rn": "9",
+      "rd": "Dmitrie Cantemir Square - Kodru",
+      "rwt": "06:00 - 18:54",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 0,
+        "sunday": 0
+      },
+      "rwi": "30-45",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 116,
+      "rn": "10",
+      "rd": "Vasile Alexandri St - Gratiesti",
+      "rwt": "06:00 - 19:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "30",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 34,
+      "rn": "11",
+      "rd": "Tighina St - Durlesti - D. Cantemir Square",
+      "rwt": "05:20 - 19:44",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "40-105",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 44,
+      "rn": "17",
+      "rd": "Ovidiu Square - Truseni",
+      "rwt": "05:05 - 20:32",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "25-70",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 29,
+      "rn": "18",
+      "rd": "Tighina St - Sangera",
+      "rwt": "05:15 - 21:08",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "20-26",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 122,
+      "rn": "19",
+      "rd": "Cuza Voda St - Moskva Blvd",
+      "rwt": "05:25 - 21:27",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "20-45",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 128,
+      "rn": "20",
+      "rd": "31 August 1989 St - Vatra",
+      "rwt": "06:20 - 19:25",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 0,
+        "sunday": 0
+      },
+      "rwi": "20-90",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 26,
+      "rn": "23",
+      "rd": "Ismail St - Mircea cel Batran Blvd",
+      "rwt": "05:15 - 00:20",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "6-15",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 33,
+      "rn": "24",
+      "rd": "Tighina St - Colonita",
+      "rwt": "05:20 - 22:42",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "65-170",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 121,
+      "rn": "26",
+      "rd": "Liviu Deleanu St - Doina St",
+      "rwt": "06:05 - 20:36",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "20-30",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 117,
+      "rn": "28",
+      "rd": "Vasile Alexandri St - Gratiesti - Hulboaca",
+      "rwt": "05:20 - 23:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "15-30",
+      "rp": 4,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 38,
+      "rn": "31",
+      "rd": "Tigina - Vadul lui Vode",
+      "rwt": "05:20 - 22:04",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "40-140",
+      "rp": 6,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 42,
+      "rn": "32",
+      "rd": "D.Cantemir Square - Ghidighici",
+      "rwt": "05:10 - 18:42",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "60",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 31,
+      "rn": "33",
+      "rd": "Tighina St - Dobrogea",
+      "rwt": "05:00 - 23:06",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "15-30",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 37,
+      "rn": "34",
+      "rd": "Tighina St - Tohatin",
+      "rwt": "06:40 - 14:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "400",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 118,
+      "rn": "35",
+      "rd": "Tighina St - Ialoveni",
+      "rwt": "06:00 - 21:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "10-30",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 35,
+      "rn": "38",
+      "rd": "Tighina St - Cruzesti",
+      "rwt": "05:00 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "15-105",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 32,
+      "rn": "39",
+      "rd": "Tighina St - Bubuieci - Bâc",
+      "rwt": "05:20 - 20:32",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "22-60",
+      "rp": 4,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 30,
+      "rn": "44",
+      "rd": "Tighina St - Revaca",
+      "rwt": "05:20 - 21:59",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "40-75",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 43,
+      "rn": "46",
+      "rd": "Ovidiu Square - Ghidighici",
+      "rwt": "05:10 - 23:58",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "10-90",
+      "rp": 3.5,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 39,
+      "rn": "47",
+      "rd": "Vasile Alecsandri St - Ciorescu",
+      "rwt": "05:40 - 22:54",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "15-45",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 40,
+      "rn": "48",
+      "rd": "Vasile Alecsandri St - Fauresti",
+      "rwt": "06:00 - 19:19",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "115-230",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 47,
+      "rn": "49",
+      "rd": "Tighina St - Băcioi - Frumuşica",
+      "rwt": "05:05 - 21:53",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "25-85",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 131,
+      "rn": "50",
+      "rd": "Hotel Cosmos - Tebekaria Veche St",
+      "rwt": "07:30 - 15:10",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "60-330",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    },
+    {
+      "ri": 27,
+      "rn": "65",
+      "rd": "Tighina St - Muncesti Hwy",
+      "rwt": "05:30 - 08:22",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 0,
+        "sunday": 0
+      },
+      "rwi": "75",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "bus",
+      "tn": "Bus"
+    }
+  ],
+  "marshrutka_8": [
+    {
+      "ri": 48,
+      "rn": "101",
+      "rd": "Traian Blvd - Durlesti",
+      "rwt": "06:00 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "2-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 50,
+      "rn": "103",
+      "rd": "Liviu Deleanu St - str. Arheolog Ion Casian-Suruceanu",
+      "rwt": "06:00 - 23:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "2-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 114,
+      "rn": "106",
+      "rd": "Dmitrie Cantemir Square - Ghidighici",
+      "rwt": "05:20 - 20:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "15-20",
+      "rp": 4,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 54,
+      "rn": "108",
+      "rd": "Mesager St - Codru",
+      "rwt": "06:10 - 19:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "15-30",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 58,
+      "rn": "112",
+      "rd": "Constantin Varnav St - Studenţilor St",
+      "rwt": "06:30 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 59,
+      "rn": "113",
+      "rd": "Sadoveanu St - Drumul Bechoilui",
+      "rwt": "06:10 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 60,
+      "rn": "114",
+      "rd": "Mirchesht St - Armenesлe St",
+      "rwt": "06:00 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-8",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 62,
+      "rn": "116",
+      "rd": "Pietrarilor St - Sarmizedzhetusa",
+      "rwt": "06:00 - 20:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 63,
+      "rn": "117",
+      "rd": "Hancesti Hwy - Coloniţa (Stejarilor St)",
+      "rwt": "06:25 - 21:45",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "2-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 64,
+      "rn": "118",
+      "rd": "Sangera - Ismail St",
+      "rwt": "05:20 - 21:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "10-15",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 65,
+      "rn": "118",
+      "rd": "Sangera - Ismail St",
+      "rwt": "05:20 - 20:40",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "10-15",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 66,
+      "rn": "119",
+      "rd": "Archeoloh Ion Chasian-Suruchianu St - Studenţilor St",
+      "rwt": "06:00 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 67,
+      "rn": "120",
+      "rd": "Sf. Vinere St - Munceşti Hwy",
+      "rwt": "06:00 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "7-15",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 68,
+      "rn": "121",
+      "rd": "Bubuieci - Balcani Hwy",
+      "rwt": "05:50 - 23:20",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 69,
+      "rn": "122",
+      "rd": "Alba-Iulia St - Dacia Blvd",
+      "rwt": "05:10 - 21:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "7-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 70,
+      "rn": "123",
+      "rd": "Bucovinei St - Pietrariei St",
+      "rwt": "06:00 - 23:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "2-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 71,
+      "rn": "124",
+      "rd": "Durlesti - Hanchesti Hwy",
+      "rwt": "06:00 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "4-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 129,
+      "rn": "125",
+      "rd": "Kodru - Durlesti",
+      "rwt": "06:00 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 130,
+      "rn": "126",
+      "rd": "Studentilor Ln - Dumbrava",
+      "rwt": "06:10 - 21:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-5",
+      "rp": 3.5,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 75,
+      "rn": "129",
+      "rd": "Sadoveanu St - Dumbrava",
+      "rwt": "06:15 - 23:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 76,
+      "rn": "130",
+      "rd": "Bulgara St - Vadul lui Voda",
+      "rwt": "06:00 - 21:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-20",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 77,
+      "rn": "131",
+      "rd": "Bulgara St - Vadul lui Voda",
+      "rwt": "06:30 - 22:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "15-20",
+      "rp": 6,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 78,
+      "rn": "132",
+      "rd": "\"Sf. Lazăr\" Cemetery - Bulgara St",
+      "rwt": "05:30 - 19:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "4-6",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 79,
+      "rn": "134",
+      "rd": "Doina St - Bulgare St",
+      "rwt": "06:00 - 19:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "4-7",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 80,
+      "rn": "135",
+      "rd": "Cetatea Alba St - Truşeni",
+      "rwt": "06:10 - 21:05",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 83,
+      "rn": "137",
+      "rd": "A. Iancu St - Bubuieci",
+      "rwt": "06:30 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "8-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 125,
+      "rn": "138",
+      "rd": "Bubuieci - 31 August 1989 St",
+      "rwt": "06:00 - 20:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "10-20",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 84,
+      "rn": "140",
+      "rd": "Bucovinei St - Stauceni",
+      "rwt": "06:30 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "4-6",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 85,
+      "rn": "145",
+      "rd": "Alba-Iulia St - Balcani Hwy (Villas)",
+      "rwt": "06:10 - 21:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 119,
+      "rn": "148",
+      "rd": "Bulgara St - Kioresku",
+      "rwt": "06:00 - 20:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "10-15",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 86,
+      "rn": "151",
+      "rd": "Mesterul Manole St - Tohatin - Cheltuitori",
+      "rwt": "06:35 - 19:50",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "40-50",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 87,
+      "rn": "152",
+      "rd": "Bulgara St - Krikova",
+      "rwt": "05:40 - 20:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "7-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 88,
+      "rn": "154",
+      "rd": "Valea Crucii St - Agricultural University",
+      "rwt": "06:00 - 21:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "4-6",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 90,
+      "rn": "157",
+      "rd": "Iu. Gagarin Blvd - Floreni",
+      "rwt": "06:00 - 21:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "6-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 91,
+      "rn": "159",
+      "rd": "Mesterul Manole St - Budesti",
+      "rwt": "06:15 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "15",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 94,
+      "rn": "162",
+      "rd": "Doina St - Bulgare St",
+      "rwt": "06:40 - 21:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 36,
+      "rn": "165",
+      "rd": "Ismail St - Airport",
+      "rwt": "06:00 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 96,
+      "rn": "166",
+      "rd": "Bucovinei St - Gradina Botanica St",
+      "rwt": "06:00 - 22:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "2-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 97,
+      "rn": "169",
+      "rd": "Maria Dragan St - Codru",
+      "rwt": "06:00 - 20:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "4-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 98,
+      "rn": "171",
+      "rd": "Salcamilor St - Vatra",
+      "rwt": "06:00 - 23:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "2-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 99,
+      "rn": "172",
+      "rd": "Balcani Hwy - North Bus Station",
+      "rwt": "07:00 - 21:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-7",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 100,
+      "rn": "173",
+      "rd": "Kodru - North Bus Station",
+      "rwt": "06:10 - 21:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "4-6",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 101,
+      "rn": "174",
+      "rd": "Gh. Codreanu St - Pedurii St",
+      "rwt": "06:00 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 102,
+      "rn": "175",
+      "rd": "Bусрioii Noi St - Armeneasca St",
+      "rwt": "06:10 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-10",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 104,
+      "rn": "178",
+      "rd": "Nord Bus Station - Codru",
+      "rwt": "06:00 - 22:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "4-6",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 106,
+      "rn": "184",
+      "rd": "Constructorilor St - Independenţei St",
+      "rwt": "06:00 - 22:50",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "2-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 107,
+      "rn": "185",
+      "rd": "Pietrarilor St - Alba-Iulia St",
+      "rwt": "06:30 - 22:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 103,
+      "rn": "186",
+      "rd": "Hulboaca - Hincheshti Hwy",
+      "rwt": "06:10 - 21:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-5",
+      "rp": 4,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 108,
+      "rn": "188",
+      "rd": "Traian Blvd - Mihai Viteazul St",
+      "rwt": "06:30 - 22:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 109,
+      "rn": "189",
+      "rd": "Aneara St - George Kashu St",
+      "rwt": "06:00 - 21:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "4-7",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 110,
+      "rn": "190",
+      "rd": "Gh. Casu St - Stauceni",
+      "rwt": "06:00 - 20:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-7",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 111,
+      "rn": "191",
+      "rd": "Bucovinei St - Gh. Casu St",
+      "rwt": "05:45 - 22:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "4-6",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    },
+    {
+      "ri": 112,
+      "rn": "192",
+      "rd": "Mihai Viteazul St - South-West Bus Station",
+      "rwt": "06:30 - 19:30",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-5",
+      "rp": 3,
+      "cur": "MDL",
+      "tk": "marshrutka",
+      "tn": "Marshrutka"
+    }
+  ],
+  "trol_2": [
+    {
+      "ri": 22,
+      "rn": "1",
+      "rd": "Durlesti - Sarmizedzhetusa St",
+      "rwt": "05:48 - 22:28",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "6-17",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 2,
+      "rn": "2",
+      "rd": "Traian Blvd - A. Puskin St",
+      "rwt": "06:02 - 23:07",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "4-9",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 3,
+      "rn": "3",
+      "rd": "Alba-Iulia St - Mioritsa St",
+      "rwt": "06:04 - 21:42",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "6-22",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 4,
+      "rn": "4",
+      "rd": "Dachia Blvd - Ion Kreange St",
+      "rwt": "05:44 - 22:33",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-18",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 5,
+      "rn": "5",
+      "rd": "Trolleybus Depot Nr. 2 - Bariera Sculeni St",
+      "rwt": "05:19 - 22:32",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "7-22",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 6,
+      "rn": "7",
+      "rd": "Uzinelor St - 31 August 1989 St",
+      "rwt": "05:44 - 22:25",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "7-25",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 7,
+      "rn": "8",
+      "rd": "Traian Blvd - Restaurant Butoias",
+      "rwt": "05:54 - 22:38",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "4-13",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 8,
+      "rn": "9",
+      "rd": "South-West Bus Station - North Bus Station",
+      "rwt": "06:07 - 23:05",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "7-22",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 9,
+      "rn": "10",
+      "rd": "Moscova Blvd - Mioritsa St",
+      "rwt": "05:51 - 22:40",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-10",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 120,
+      "rn": "11",
+      "rd": "Moscova Blvd - La Izvor Park",
+      "rwt": "06:02 - 18:45",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 0,
+        "sunday": 0
+      },
+      "rwi": "15-15",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 10,
+      "rn": "13",
+      "rd": "Mircea cel Batran Blvd - V. Dokuchaev St",
+      "rwt": "05:41 - 21:57",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "6-21",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 12,
+      "rn": "16",
+      "rd": "Meshterul Manole St - 31 August 1989 St",
+      "rwt": "06:16 - 17:46",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 0,
+        "sunday": 0
+      },
+      "rwi": "33-37",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 13,
+      "rn": "17",
+      "rd": "South-West Bus Station - Railway Station",
+      "rwt": "05:51 - 23:13",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "8-17",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 14,
+      "rn": "20",
+      "rd": "Trolleybus Depot Nr. 2 - Munceshti Hwy",
+      "rwt": "05:17 - 22:43",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "12-22",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 15,
+      "rn": "21",
+      "rd": "Meshterul Manole St - Alba-Iulia St",
+      "rwt": "05:47 - 22:24",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-16",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 16,
+      "rn": "22",
+      "rd": "Alba-Iulia St - Dachia Blvd",
+      "rwt": "05:25 - 00:06",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-15",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 17,
+      "rn": "23",
+      "rd": "Mircea cel Batran - La Izvor Park",
+      "rwt": "05:32 - 19:54",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "8-22",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 18,
+      "rn": "24",
+      "rd": "Mircea cel Batran Blvd - Mioritsa St",
+      "rwt": "05:36 - 00:00",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "3-7",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 19,
+      "rn": "25",
+      "rd": "Cheukari St - 31 August 1989 St",
+      "rwt": "05:47 - 22:38",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "5-10",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 20,
+      "rn": "26",
+      "rd": "Cheukari St - Mircea cel Batran St",
+      "rwt": "07:06 - 08:04",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 0,
+        "sunday": 0
+      },
+      "rwi": "58",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 21,
+      "rn": "27",
+      "rd": "Cheukari St - Ion Kreange St",
+      "rwt": "06:39 - 19:02",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 0,
+        "sunday": 0
+      },
+      "rwi": "28-30",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 23,
+      "rn": "29",
+      "rd": "Agrarian University - Stefan chel Mare shy Sfynt Park",
+      "rwt": "05:50 - 21:36",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "10-23",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    },
+    {
+      "ri": 127,
+      "rn": "30",
+      "rd": "31 August 1989 St - Airport",
+      "rwt": "05:16 - 22:09",
+      "rwd": {
+        "monday": 1,
+        "tuesday": 1,
+        "wednesday": 1,
+        "thursday": 1,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      },
+      "rwi": "22-25",
+      "rp": 2,
+      "cur": "MDL",
+      "tk": "trol",
+      "tn": "Trolleybus"
+    }
+  ]
+}
