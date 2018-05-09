@@ -9,7 +9,7 @@ const routesController = (req, res) => {
     })
     .then(function(myJson) {
       console.log(myJson);
-      res.send(myJson);
+      res.status(200).send(myJson);
     });
 };
 

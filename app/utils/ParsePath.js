@@ -3,8 +3,8 @@ const parsePath = function(path) {
   return arrayOfPoints.map(item => {
     const coorinates = item.split(',');
     return {
-      longitude: coorinates[0],
-      latitude: coorinates[1],
+      latitude: coorinates[0],
+      longitude: coorinates[1],
     }
   });
 };
