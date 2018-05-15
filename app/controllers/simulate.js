@@ -1,6 +1,7 @@
 const parsePath = require('../utils/ParsePath');
 const pingCoordinates = require('../utils/pingCoordinates');
 const fetch = require('node-fetch');
+const { getDistance } = require('../utils/getDistance');
 
 let USER_ID = 0;
 
@@ -8,7 +9,10 @@ const fakeDataScheduleTransport = (userId, transportNr, path) => {
   let current = 0;
   setInterval(() => {
     pingCoordinates(userId, transportNr, path[current]);
+    const point1 = path[current];
     current++;
+    const point2 = path[current];
+    console.log('Distance: ' + getDistance(point1, point2) + ' m');
     if(current === path.length) {
       current = 0;
     }

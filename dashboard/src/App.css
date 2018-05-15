@@ -1,0 +1,112 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #222;
+  height: 60px;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 24px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.dashboard-heading {
+  display: flex;
+  justify-content: space-around;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.header-item {
+  width: 20%;
+  text-align: center;
+}
+
+.route-list-item {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: space-around;
+  background-color: #eee;
+}
+
+.route-list-item {
+  margin: 2px 0;
+  color: black;
+}
+
+.text-cell {
+  text-align: center;
+  width: 20%;
+}
+.text-cell span {
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.input-cell {
+  display: flex;
+  text-align: center;
+  width: 20%;
+  align-items: center;
+}
+
+.input-cell input {
+  height: 20px;
+  width: 100px;
+  margin: auto;
+}
+
+.step-container {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+
+.step-value {
+  width: 30px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.time {
+  display: flex;
+  width: 20%;
+}
+
+.time input {
+  margin-left: 100px;
+}
+
+.action-buttons {
+  display: flex;
+  width: 20%;
+}
+
+.update {
+  background-color: #ffa100;
+  margin-left: 100px;
+}
+
+.remove {
+  background-color: crimson;
+  margin-left: 30px;
+}
+
+.increment {
+  width: 40px;
+}
+
+.decrement {
+  width: 40px;
+}
