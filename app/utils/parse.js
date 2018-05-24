@@ -15,7 +15,6 @@ const extractTransportMarkerData = (json) => {
 };
 
 const isValidRequestData = (json) => {
-  console.log('JSON:', json);
   if (!json.general || !json.scheme || !json.begin || !json.end) return false;
   // if (Object.keys(json.scheme) !== 2) return false;
   // if (!Array.isArray(json.stops)) return false;

@@ -1,7 +1,6 @@
 import pushCoordinates from '../utils/pushCoordinates';
 import getRouteById from '../utils/getRouteById'
-import { getDistance } from '../utils/getDistance';
-import { getRouteDistance } from '../utils/getDistance';
+import { getCurrentLocationFromPath } from '../utils/getDistance';
 
 const transportMarkes = [];
 const TOTAL_TIME = 3600; // one lap time in seconds
@@ -33,10 +32,10 @@ const fakeDataScheduleTransport = ({ transport, path }) => {
 const simulateController = (req, res) => {
   const id = parseInt(req.params.id);
   const transportData = getRouteById(id);
-  const totalDistance = getRouteDistance(transportData.path);
-  console.log('Route distance');
-  console.log(totalDistance);
-  console.log('TRANSPORT DATA PRESENT');
+  const point = getCurrentLocationFromPath(transportData.path, TOTAL_TIME);
+  console.log('Interpolated point');
+  console.log(point);
+  console.log('Interpolated point');
   res.status(200).send('ok');
 };
 
