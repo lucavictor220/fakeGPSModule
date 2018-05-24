@@ -1,40 +1,43 @@
-const parsePath = require('../utils/ParsePath');
-const pingCoordinates = require('../utils/pingCoordinates');
-const fetch = require('node-fetch');
-const { getDistance } = require('../utils/getDistance');
+import pushCoordinates from '../utils/pushCoordinates';
+import getRouteById from '../utils/getRouteById'
+import { getDistance } from '../utils/getDistance';
+import { getRouteDistance } from '../utils/getDistance';
 
-let USER_ID = 0;
+const transportMarkes = [];
+const TOTAL_TIME = 3600; // one lap time in seconds
 
-const fakeDataScheduleTransport = (userId, transportNr, path) => {
+const fakeDataScheduleTransport = ({ transport, path }) => {
   let current = 0;
+  transportMarkes.push(transport);
+  console.log('=======');
+  console.log(path[current]);
+  console.log('=======');
+  let { latitude, longitude } = path[current];
   setInterval(() => {
-    pingCoordinates(userId, transportNr, path[current]);
+    const transportMarker = {
+      ...transport,
+      latitude,
+      longitude,
+    };
+    pushCoordinates(transportMarker);
     const point1 = path[current];
     current++;
     const point2 = path[current];
-    console.log('Distance: ' + getDistance(point1, point2) + ' m');
-    if(current === path.length) {
+    console.log('Current ' + current + 'Distance: ' + getDistance(point1, point2) + ' m');
+    if(current === forwardPath.length) {
       current = 0;
     }
   }, 3000);
 };
 
-const simulateController = (req, res, next) => {
-  fetch(`https://www.eway.md/ajax/en/chisinau/routeInfo/${req.params.id}`, {
-    headers: { 'X-Requested-With': 'XMLHttpRequest' }
-  })
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(myJson) {
-      const forwardPathString = myJson.scheme.forward;
-      const transportNr = parseInt(myJson.general.rn);
-      const path = parsePath(forwardPathString);
-      res.status(200).send(`Scheduled transport nr ${transportNr}`);
-      fakeDataScheduleTransport(USER_ID, transportNr, path);
-      USER_ID++;
-      next();
-    });
+const simulateController = (req, res) => {
+  const id = parseInt(req.params.id);
+  const transportData = getRouteById(id);
+  const totalDistance = getRouteDistance(transportData.path);
+  console.log('Route distance');
+  console.log(totalDistance);
+  console.log('TRANSPORT DATA PRESENT');
+  res.status(200).send('ok');
 };
 
 module.exports = simulateController;

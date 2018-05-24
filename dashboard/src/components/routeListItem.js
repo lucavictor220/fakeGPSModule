@@ -14,6 +14,14 @@ class RouteListItem extends Component {
     }
   }
 
+  static getDerivedStateFromProps(nextProps) {
+    console.log('Get derived state', nextProps);
+    return {
+      route: nextProps.route,
+    }
+  }
+
+
   handleTimeChange = (event) => {
     console.log('event:', event.target.value);
     this.props.onChange({
@@ -29,8 +37,20 @@ class RouteListItem extends Component {
     });
   };
 
+  updateListItem = () => {
+    console.log('UDDATE WITH NEW VALUES:', this.state.route);
+    this.props.onUpdate({
+      ...this.state.route,
+    })
+  };
+
+  removeListItem = () => {
+    console.log('Remove item with id: ', this.state.route.id);
+    this.props.onRemove(this.state.route.id);
+  };
+
   render() {
-    const { route, onUpdate, onRemove } = this.props;
+    const { route } = this.props;
     console.log('State', this.state);
 
     return (
@@ -39,7 +59,7 @@ class RouteListItem extends Component {
         <TextCell info={route.type} />
         <Step step={route.step} onChange={this.onStepChange}/>
         <InputCell value={route.timeInterval} onChange={this.handleTimeChange}/>
-        <ActionButtons onUpdate={onUpdate} onRemove={onRemove} />
+        <ActionButtons onUpdate={this.updateListItem} onRemove={this.removeListItem} />
       </div>
     )
   }

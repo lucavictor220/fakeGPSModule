@@ -1,15 +1,15 @@
-var fs = require('fs');
-var moment = require('moment');
+let fs = require('fs');
+let moment = require('moment');
 
-var PARSE_NR = 10;
+let PARSE_NR = 10;
 
-var data = JSON.parse(fs.readFileSync('./data/stations_10.json', 'utf8'));
-var parsed_data = {};
+let data = JSON.parse(fs.readFileSync('./data/stations_10.json', 'utf8'));
+let parsed_data = {};
 
-var routeStartTime = '5:40';
-var routeEndTime = '11:15';
-var minutesBetweenTrolleybuses = 10;
-var timeBetweenStations = 3;
+let routeStartTime = '5:40';
+let routeEndTime = '11:15';
+let minutesBetweenTrolleybuses = 10;
+let timeBetweenStations = 3;
 
 
 parsed_data[PARSE_NR] = {};
@@ -22,7 +22,7 @@ parsed_data[PARSE_NR].end = data.end;
 
 
 function changeKeysOfStation(item) {
-  var station = {};
+  let station = {};
 
   station.id = item.i;
   station.name = item.n;
@@ -33,9 +33,9 @@ function changeKeysOfStation(item) {
 }
 
 function createTimeScheduleArray(start, end) {
-  var startTime = moment(start, 'HH:mm');
-  var endTime = moment(end, 'HH:mm');
-  var timeStops = [];
+  let startTime = moment(start, 'HH:mm');
+  let endTime = moment(end, 'HH:mm');
+  let timeStops = [];
 
   while(startTime <= endTime){
     timeStops.push(new moment(startTime).format('HH:mm'));
@@ -44,10 +44,10 @@ function createTimeScheduleArray(start, end) {
   return timeStops;
 }
 
-var i = 0;
-for (var prop in parsed_data[PARSE_NR].stops) {
+let i = 0;
+for (let prop in parsed_data[PARSE_NR].stops) {
   parsed_data[PARSE_NR].stops[prop] = data.stops[i].map(function(item) {
-    var station = {};
+    let station = {};
 
     station = changeKeysOfStation(item);
     station.schedule = createTimeScheduleArray(routeStartTime, routeEndTime);
@@ -63,7 +63,7 @@ for (var prop in parsed_data[PARSE_NR].stops) {
 
 
 
-var json = JSON.stringify(parsed_data);
+let json = JSON.stringify(parsed_data);
 //
 fs.writeFile('./data/parsed/10_with_schedule.json', json, 'utf8', function (err) {
   if (err) {

@@ -1,7 +1,7 @@
-const express = require('express');
+import express from 'express';
 const app = express();
-const router = require('./routes');
+import router from './routes';
 
 app.use('/', router);
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+app.listen(3000, () => console.log('Fake-use-module is running... \nPort 3000'));
