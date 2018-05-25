@@ -3,6 +3,7 @@ const createTransport = ({ type, nr }) => {
     id: (+new Date).toString(36).slice(-8),
     nr,
     type,
+    createdDate: new Date(),
     timestamp: Date.now(),
   }
 };
