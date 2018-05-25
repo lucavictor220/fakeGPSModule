@@ -3,7 +3,7 @@ let moment = require('moment');
 
 let PARSE_NR = 10;
 
-let data = JSON.parse(fs.readFileSync('./data/stations_10.json', 'utf8'));
+let data = JSON.parse(fs.readFileSync('./data/9.json', 'utf8'));
 let parsed_data = {};
 
 let routeStartTime = '5:40';

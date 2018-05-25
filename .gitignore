@@ -1,3 +1,7 @@
 firebase-admin-credentials.json
 node_modules/
 .idea/
+
+app/data/
+
+app/utils/scrapAllRoutes.js

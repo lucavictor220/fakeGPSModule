@@ -9,7 +9,7 @@ admin.initializeApp({
 const db = admin.database();
 
 const pushCoordinates = (transport) => {
-  console.log('Marker data: ', transport);
+  console.log(transport);
   db.ref('markers/' + transport.id).set({...transport});
 };
 

@@ -68,5 +68,6 @@ export const getCurrentLocationFromPath = (path, lapTime) => {
   const upToPointDistance = getRouteDistance(path, idOfPointBeforeCurrentDistance);
   const deltaDistance = currentDistance - upToPointDistance;
   const bearing = ruler.bearing(path[idOfPointBeforeCurrentDistance], path[idOfPointBeforeCurrentDistance+1]);
+  console.log(path[idOfPointBeforeCurrentDistance]);
   return ruler.destination(path[idOfPointBeforeCurrentDistance], deltaDistance, bearing);
 };

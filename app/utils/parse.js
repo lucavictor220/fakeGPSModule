@@ -15,17 +15,14 @@ const extractTransportMarkerData = (json) => {
 };
 
 const isValidRequestData = (json) => {
-  if (!json.general || !json.scheme || !json.begin || !json.end) return false;
-  // if (Object.keys(json.scheme) !== 2) return false;
-  // if (!Array.isArray(json.stops)) return false;
-  console.log('VALID DATA');
-  return true;
+  return json.general && json.scheme && json.begin && json.end;
 };
 
 export const parseTransportData = (json) => {
   if (!isValidRequestData(json)) {
     throw new Error('Invalid data');
   }
+  console.log('VALID DATA');
   return {
     transport: extractTransportMarkerData(json),
     forwardPath: parsePath(json.scheme.forward),
