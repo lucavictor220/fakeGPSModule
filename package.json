@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "body-parser": "^1.18.3",
     "cheap-ruler": "^2.5.1",
     "express": "^4.16.3",
     "firebase-admin": "^5.12.0",

@@ -7,7 +7,7 @@ import fs from 'fs';
 const PATH = 'app/data/';
 
 const transportMarkers = [];
-const TOTAL_TIME = 3600; // one lap time in seconds
+const TOTAL_TIME = 2000; // one lap time in seconds
 
 const fakeDataScheduleTransport = ({ transport, path, lapTime }) => {
   transportMarkers.push(transport);
@@ -43,7 +43,7 @@ const simulateController = (req, res) => {
     const data = JSON.stringify(json);
     const path = PATH + id + '.json';
     fs.writeFileSync(path, data, 'utf8');
-    const transportData = parseTransportData(json)
+    const transportData = parseTransportData(json);
     transportData.lapTime = TOTAL_TIME;
     fakeDataScheduleTransport(transportData);
     res.status(200).send('ok');

@@ -1,7 +1,5 @@
-import scrapAllPublicTransportRoutesFromEwayApp from '../utils/scrapAllRoutes';
-
 const allRountesController = (req, res) => {
-  scrapAllPublicTransportRoutesFromEwayApp(res);
+  res.status(200).send('All routes controller');
 };
 
 module.exports = allRountesController;

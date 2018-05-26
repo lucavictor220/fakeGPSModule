@@ -5,3 +5,4 @@ node_modules/
 app/data/
 
 app/utils/scrapAllRoutes.js
+app/controllers/scrap.js
