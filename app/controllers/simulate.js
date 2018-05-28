@@ -7,7 +7,7 @@ import fs from 'fs';
 const PATH = 'app/data/';
 
 const transportMarkers = [];
-const TOTAL_TIME = 2000; // one lap time in seconds
+const TOTAL_TIME = 900; // one lap time in seconds
 
 const fakeDataScheduleTransport = ({ transport, path, lapTime }) => {
   transportMarkers.push(transport);
@@ -16,7 +16,7 @@ const fakeDataScheduleTransport = ({ transport, path, lapTime }) => {
   console.log('=======');
 
   setInterval(() => {
-    const [ latitude, longitude ] = getCurrentLocationFromPath(path, lapTime);
+    const [ latitude, longitude ] = getCurrentLocationFromPath(transport, path, lapTime);
     const transportMarker = {
       ...transport,
       latitude,

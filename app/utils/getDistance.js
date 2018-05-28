@@ -1,5 +1,7 @@
 import cheapRuler from 'cheap-ruler';
 
+const ruler = cheapRuler(47.06, 'meters');
+
 /** Converts numeric degrees to radians */
 if (typeof(Number.prototype.toRadians) === "undefined") {
   Number.prototype.toRadians = function() {
@@ -27,20 +29,19 @@ export const getDistance = (point1, point2) => {
   return R * c;
 };
 
-const findLatitude = (point) => (point[1]);
-
-export const getCurrentDistance = (totalDistance, totalTime) => {
+export const getCurrentDistance = (totalDistance, startTime, lapTime) => {
   // v = d/t
-  const velocity = totalDistance / totalTime;
+  const velocity = totalDistance / lapTime;
   const currentTime = new Date();
-  const totalSecondsElapsed = currentTime.getMinutes() * 60 + currentTime.getSeconds();
-  return totalSecondsElapsed * velocity;
+  const timeElapsedFromLastLapInSeconds = ((currentTime.getTime() - startTime.getTime()) / 1000) % lapTime;
+  console.log(timeElapsedFromLastLapInSeconds);
+  return timeElapsedFromLastLapInSeconds * velocity;
 };
 
 export const findPointIdBeforeDistance = (path, distance) => {
-  const ruler = cheapRuler(findLatitude(path[0]), 'meters');
   let currentDistance = 0;
   for (let i = 0; i < path.length-1; i++) {
+    console.log(path[i], path[i+1]);
     currentDistance += ruler.distance(path[i], path[i+1]);
     // get point at which the current distance accumulated by sum of segments is greater than given one;
     if (currentDistance > distance) return i;
@@ -52,7 +53,6 @@ export const findPointIdBeforeDistance = (path, distance) => {
 export const getRouteDistance = (path, n) => {
   // consider distance in meters
   const iterateBound = !!n ? n : path.length-1;
-  const ruler = cheapRuler(findLatitude(path[0]), 'meters');
   let totalDistance = 0;
   for (let i = 0; i < iterateBound; i++) {
     totalDistance += ruler.distance(path[i], path[i+1]);
@@ -60,10 +60,10 @@ export const getRouteDistance = (path, n) => {
   return totalDistance;
 };
 
-export const getCurrentLocationFromPath = (path, lapTime) => {
-  const ruler = cheapRuler(findLatitude(path[0]), 'meters');
+export const  getCurrentLocationFromPath = (transport, path, lapTime) => {
+  const startTime = transport.createdDate;
   const totalDistance = getRouteDistance(path);
-  const currentDistance = getCurrentDistance(totalDistance, lapTime);
+  const currentDistance = getCurrentDistance(totalDistance, startTime, lapTime);
   const idOfPointBeforeCurrentDistance = findPointIdBeforeDistance(path, currentDistance);
   const upToPointDistance = getRouteDistance(path, idOfPointBeforeCurrentDistance);
   const deltaDistance = currentDistance - upToPointDistance;

@@ -14,7 +14,7 @@ router.get('/routes', allRoutesController);
 
 router.get('/scrap', scrapController);
 
-router.get('/routes/:id', routesController);
+router.get('/routes/:id/:type', routesController);
 
 router.get('/simulate/:id', simulateController);
 
