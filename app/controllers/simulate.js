@@ -1,8 +1,8 @@
 import pushCoordinates from '../utils/pushCoordinates';
 import getRouteById from '../utils/getRouteById'
-import { getCurrentLocationFromPath } from '../utils/getDistance';
+import { getCurrentLocationFromPath, getRouteDistance } from '../utils/getDistance';
 import { readFromLocalStorageById } from '../utils/read';
-import { parseTransportData } from "../utils/parse";
+import { parseTransportData, getDi } from "../utils/parse";
 import fs from 'fs';
 const PATH = 'app/data/';
 
@@ -23,18 +23,20 @@ const fakeDataScheduleTransport = ({ transport, path, lapTime }) => {
       longitude,
     };
     pushCoordinates(transportMarker);
-  }, 5000);
+  }, 2000);
 };
 
 
 
 const simulateController = (req, res) => {
   const id = parseInt(req.params.id);
+  const speed = parseInt(req.params.speed);
+  console.log(id, speed);
   let data = readFromLocalStorageById(id);
   if (data) {
     console.log('Local Storage get');
     let transportData = parseTransportData(data);
-    transportData.lapTime = TOTAL_TIME;
+    transportData.lapTime = getRouteDistance(transportData.path) / speed;
     fakeDataScheduleTransport(transportData);
     return res.status(200).send('ok');
   }

@@ -30,3 +30,5 @@ export const parseTransportData = (json) => {
     path: parsePath(json.scheme.forward).concat(parsePath(json.scheme.backward))
   }
 };
+
+export const parseSimulateBodyData = ({ nr, type, speed }) => ({ nr: Number(nr), type, speed: Number(speed)});

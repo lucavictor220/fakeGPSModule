@@ -34,14 +34,12 @@ export const getCurrentDistance = (totalDistance, startTime, lapTime) => {
   const velocity = totalDistance / lapTime;
   const currentTime = new Date();
   const timeElapsedFromLastLapInSeconds = ((currentTime.getTime() - startTime.getTime()) / 1000) % lapTime;
-  console.log(timeElapsedFromLastLapInSeconds);
   return timeElapsedFromLastLapInSeconds * velocity;
 };
 
 export const findPointIdBeforeDistance = (path, distance) => {
   let currentDistance = 0;
   for (let i = 0; i < path.length-1; i++) {
-    console.log(path[i], path[i+1]);
     currentDistance += ruler.distance(path[i], path[i+1]);
     // get point at which the current distance accumulated by sum of segments is greater than given one;
     if (currentDistance > distance) return i;
@@ -68,6 +66,5 @@ export const  getCurrentLocationFromPath = (transport, path, lapTime) => {
   const upToPointDistance = getRouteDistance(path, idOfPointBeforeCurrentDistance);
   const deltaDistance = currentDistance - upToPointDistance;
   const bearing = ruler.bearing(path[idOfPointBeforeCurrentDistance], path[idOfPointBeforeCurrentDistance+1]);
-  console.log(path[idOfPointBeforeCurrentDistance]);
   return ruler.destination(path[idOfPointBeforeCurrentDistance], deltaDistance, bearing);
 };
